@@ -1,0 +1,34 @@
+
+State Machine - |main|control:ctrl|c_state
+Name c_state.wait_state c_state.next_round c_state.check c_state.result c_state.play c_state.setup c_state.start 
+c_state.start 0 0 0 0 0 0 0 
+c_state.setup 0 0 0 0 0 1 1 
+c_state.play 0 0 0 0 1 0 1 
+c_state.result 0 0 0 1 0 0 1 
+c_state.check 0 0 1 0 0 0 1 
+c_state.next_round 0 1 0 0 0 0 1 
+c_state.wait_state 1 0 0 0 0 0 1 
+
+State Machine - |main|buttonSync:btn_sync|btn3state
+Name btn3state.EsperaSoltar btn3state.SaidaAtiva btn3state.EsperaApertar 
+btn3state.EsperaApertar 0 0 0 
+btn3state.SaidaAtiva 0 1 1 
+btn3state.EsperaSoltar 1 0 1 
+
+State Machine - |main|buttonSync:btn_sync|btn2state
+Name btn2state.EsperaSoltar btn2state.SaidaAtiva btn2state.EsperaApertar 
+btn2state.EsperaApertar 0 0 0 
+btn2state.SaidaAtiva 0 1 1 
+btn2state.EsperaSoltar 1 0 1 
+
+State Machine - |main|buttonSync:btn_sync|btn1state
+Name btn1state.EsperaSoltar btn1state.SaidaAtiva btn1state.EsperaApertar 
+btn1state.EsperaApertar 0 0 0 
+btn1state.SaidaAtiva 0 1 1 
+btn1state.EsperaSoltar 1 0 1 
+
+State Machine - |main|buttonSync:btn_sync|btn0state
+Name btn0state.EsperaSoltar btn0state.SaidaAtiva btn0state.EsperaApertar 
+btn0state.EsperaApertar 0 0 0 
+btn0state.SaidaAtiva 0 1 1 
+btn0state.EsperaSoltar 1 0 1 
